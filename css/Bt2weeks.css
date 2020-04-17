@@ -1,0 +1,86 @@
+﻿body
+{
+    background-color: #212529;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.navbar {
+	background-color: rgb(250,250,250);
+}
+.navbar li a {
+    color: rgba(82,64,120,0.9);
+   
+}
+.navbar li a:hover {
+    color: black;
+    border-bottom: groove;
+    border-bottom-color: rgba(82,64,120,0.9);
+}
+
+.navbar input[type=text]{
+    background-color: rgb(240,240,240);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    outline: none;
+    width: 200px;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+#idNav2 .navbar {
+	background-color: rgba(82,64,120,0.9);
+}
+#idNav2 .navbar li a {
+    color: white;
+}
+#idNav2 .navbar li a:hover {
+    color: black;
+}
+
+.space {
+    height: 80px;
+}
+
+.welcome hr {
+	border-top: 2px solid ;
+	width: 95%;	
+	margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.clMain1 {
+    height:  10px;
+}
+
+
+#container4 {
+    height: 300px;
+    width: 100%;
+    opacity: 0.6;
+}
+
+#container4 .content4 {
+    color: red;
+}
+
+.footer-wrap {
+    display: block;
+    font-size: 13px;
+    width: 100%;
+    background-color: #c4c4c4;
+}
+
+.footer-wrap li {
+    list-style: none;
+}
+.footer-wrap  ul {
+    display: flex;
+}
+.title-footer {
+    display: inline-block !important;
+}
+
+

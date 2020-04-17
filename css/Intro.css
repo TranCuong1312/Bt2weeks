@@ -1,0 +1,80 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Lato');
+html, body {
+width: 100%;
+height: 100%;
+font-family: 'Lato';
+font-size: 20px;
+color: rgb(255,150,0);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#Intro #introword {
+    position: absolute;
+    top: 40%;
+    right: 10%;
+}
+
+#Intro1 #introword1 {
+    position: absolute;
+    top: 45%;
+    right: 14%;
+}
+
+#Intro2 #introword2 {
+    position: absolute;
+    top: 70%;
+    right: 10%;
+    background-color: white;
+    color: green;
+}
+
+#Intro3 #introword3 {
+    position: absolute;
+    top: 30%;
+    right: 30%;
+    color: red;
+    background-color: white;
+}
+
+#Intro4 #introword4 {
+    position: absolute;
+    top: 70%;
+    right: 10%;
+    color: red;
+    background-color: white;
+}
+
+#Intro5 #introword5 {
+    position: absolute;
+    top: 70%;
+    right: 30%;
+    left: 10%;
+    color: red;
+}
+
+#Intro6 #introword6 {
+    position: absolute;
+    top: 70%;
+    right: 10%;
+    color: red;
+}
+
+#Intro7 #introword7 {
+    position: absolute;
+    top: 70%;
+    right: 10%;
+    color: red;
+}
+
+#Intro8 #introword8 {
+    position: absolute;
+    top: 70%;
+    right: 10%;
+    color: red;
+    background-color: white;
+}
+
+    
