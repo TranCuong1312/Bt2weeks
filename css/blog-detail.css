@@ -1,0 +1,36 @@
+.banner-title {
+    width: 100%;
+    background-color: #7c7bad;
+    color: #fff;
+}
+.text-blog {
+    font-size: 18px;
+    color: #616060;
+}
+.text-blog h2 {
+    color: #000;
+    font-weight: 600;
+}
+.text-blog a {
+    font-weight: 600;
+    text-decoration: underline;
+    color: #5f5e97;
+}
+.detail-link  {
+    background: rgb(223, 222, 222);
+    width: 100%;
+}
+.author-card img {
+    border-radius: 50px;
+}
+.author-card {
+    border-top: 1px solid #c4c4c4;
+    border-bottom: 1px solid #c4c4c4;
+}
+.ULike {
+    color: #000;
+    font-weight: 600;
+}
+.blog-box-detail a {
+    text-decoration: none;
+}

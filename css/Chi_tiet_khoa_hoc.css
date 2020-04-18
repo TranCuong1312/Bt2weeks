@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+.menu-bar {
+  width: 100%;
+  background: rgb(0, 100, 0);
+  text-align: center;
+}
+
+.menu-bar * {
+  padding: 0;
+  margin: 0;
+}
+
+.menu-bar ul {
+  display: inline-flex;
+  list-style: none;
+  color: #fff;
+}
+
+.menu-bar ul li {
+  width: 120px;
+  margin: 15px;
+  padding: 15px;
+}
+
+.menu-bar ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.active, .menu-bar ul li:hover {
+  background: #2bab0d;
+  border-radius: 3px;
+}
+
+.sub-menu-home {
+  display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-home {
+  display: block;
+  position: absolute;
+  background-color: rgb(0, 120, 0);
+  margin-top: 15px;
+  margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu-home ul {
+  display: block;
+  margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu-home ul li {
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu-home ul li:last-child {
+  border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu-home ul li a:hover {
+  color: #b2ff00;
+}
+
+.fa-angle-right {
+  float: right;
+}
+
+.gt {
+  text-align: center;
+  color: rgb(190, 28, 28);
+  font-family: "Oswald", cursive;
+}
+
+.tdkh {
+  font-size: 300%;
+}
+
+.ctkh p {
+  line-height: 30px;
+}
+
+.main {
+  width: 80%;
+  margin: auto;
+}
+
+.btn1 {
+  text-align: center;
+}
+
+body main div .btn {
+  font-size: 200%;
+  margin: 50px;
+}
+
+.lo-trinhkh {
+  background: #efefef;
+}
+
+.lo-trinhkh .title {
+  font-family: "Oswald", cursive;
+  color: rgb(190, 28, 28);
+  text-align: center;
+}
+
+.buoihoc .buoi {
+  width: 33%;
+  height: 100px;
+  display: inline-block;
+  text-align: center;
+}
+
+.buoihoc .buoi h4 {
+  font-family: "Oswald", cursive;
+  color: rgb(190, 28, 28);
+}
+
+.Giang-vien .title {
+  font-family: "Oswald", cursive;
+  color: rgb(190, 28, 28);
+  text-align: center;
+}
+
+.gv1 .anh-gv-1 {
+  width: 300px;
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 100px;
+}
+
+.gv1 .gioithieu-gv {
+  display: inline-block;
+  width: 55%;
+}
+
+.gv1 .gioithieu-gv h4 {
+  font-family: "Oswald", cursive;
+  color: rgb(190, 28, 28);
+  display: inline-block;
+}
+
+.lichtc .title {
+  font-family: "Oswald", cursive;
+  color: rgb(190, 28, 28);
+  text-align: center;
+}
+
+.content {
+  font-family: "Roboto", cursive;
+  font-size: 120%;
+  display: inline-block;
+}
+
+.button {
+  display: inline-block;
+  font-size: 100%;
+  font-family: "Oswald", cursive;
+}
+.button .btn{
+  margin: 0;
+  margin-left: 300px;
+  margin-bottom: 150px;
+
+}

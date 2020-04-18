@@ -1,0 +1,43 @@
+﻿/* body
+{   
+    padding: 0;
+    margin: 0 auto;
+    background-color: #fff9;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} */
+
+.navbar {
+
+	background-color: rgb(255,255,255);
+}
+.navbar-wrap a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.navbar input[type=text]{
+    background-color: rgb(240,240,240);
+    color: rgba(82,64,120,0.9);
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    outline: none;
+    width: 200px;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+#idNav2>.navbar {
+	background-color: rgba(82,64,120,0.9);
+}
+#idNav2 a {
+    font-size: 11px;
+    color: #c4c4c4;
+}
+#idNav2 a:hover {
+    color: rgb(228, 37, 3)!important;
+}
+
+
+
